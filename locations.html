@@ -75,6 +75,7 @@
                 justify-content: center;
             }
         </style>
+        <script src="script.js"></script>
     </head>
     <body>
         <nav>
@@ -84,18 +85,22 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1>Vietos</h1>
-        <h2>Pas tavo mamą</h2>
+        <h1 i="Locations_ID">Vietos</h1>
+        <h2 id ="YourMOM">Pas tavo mamą</h2>
             Hello, lol, fuck you!
         <p>Sex refers to the biological characteristics that define males and females, typically including reproductive organs and chromosomes. In humans, sex is determined by the presence or absence of certain chromosomes, with females typically having two X chromosomes and males having one X and one Y chromosome. Sex also refers to sexual activity or behavior, including sexual intercourse and other forms of physical intimacy between consenting adults.</p>
-        <button>Press me !</button>
-        <ul>
+        <button onclick="revealMessage()">Press me !</button>
+        <div  id="hiddenMessage" style="display:none">
+            <p id="ip_address">192.168.123.12 :-)</p>
+            <p id="countDownText">60</p>
+        </div>
+        <ul id="nikolas">
             <li>lol</li>
             <li>prikolas</li>
             <li>pisk nx</li>
         </ul>
         <section class="feature-box snick">
-            <div>dick</div>
+            <div id="DICKIS">dick</div>
             <div>rick</div>
             <div>bick</div>
             <div>lick</div>
